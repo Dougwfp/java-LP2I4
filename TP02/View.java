@@ -80,7 +80,7 @@ public class View implements ActionListener {
         public void actionPerformed(ActionEvent e){
             String command = e.getActionCommand();
             if("OK".equals(command)){
-                alunos.add(new Aluno(t1.getText(),Integer.parseInt(t2.getText()),t3.getText()));
+                alunos.add(new Aluno(t3.getText(),Integer.parseInt(t2.getText()),t1.getText()));
                 t1.setText("");
                 t2.setText("");
                 t3.setText("");
