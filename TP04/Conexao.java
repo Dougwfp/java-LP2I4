@@ -43,7 +43,7 @@ public List<Funcionario> select(String nome)
 {
 try
 {
-String url = "jdbc:sqlserver://187.60.29.29\\SQLEXPRESS;databaseName=AulaJava;integratedSecurity=true";
+String url = "jdbc:sqlserver://127.0.0.1\\SQLEXPRESS;databaseName=AulaJava;integratedSecurity=true";
 Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 Connection con;
 con = DriverManager.getConnection(url);
